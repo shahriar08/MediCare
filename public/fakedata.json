@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Chad Christopher",
+        "image": "https://i.ibb.co/q9V4t3S/swapan-kr-saha.jpg",
+        "courseName": "Digital Marketing Masterclass",
+        "courseInfo": "Grow Your Business with Digital Marketing: Social Media Marketing, Facebook, Content, YouTube, Email Marketing, Websites"
+    },
+    {
+        "id": 2,
+        "name": "Robert Travis",
+        "image": "https://i.ibb.co/GJb27jH/bigstock-Young-medical-doctor-man-isola-105272324-1170x1169.jpg",
+        "specialist": "Machine Learning A-Z",
+        "doctorInfo": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included."
+    },
+    {
+        "id": 3,
+        "name": "Dr. Angela Yu",
+        "image": "https://i.ibb.co/0FpnFck/360-F-260040863-f-Yx-B1-Snrzg-J9-AOkc-T0hoe7-IEFts-Pi-HAD.jpg",
+        "specialist": "The Complete iOS App Development ",
+        "doctorInfo": "From Beginner to iOS App Developer with Just One Course! Fully Updated with a Comprehensive Module Dedicated to SwiftUI!"
+    },
+    {
+        "id": 4,
+        "name": "Jonas Schmedtmann",
+        "image": "https://i.ibb.co/8rjLWL3/A-young-caring-doctor.jpg",
+        "specialist": "The Complete JavaScript Course 2021",
+        "doctorInfo":"The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!"
+    },
+    {
+        "id": 5,
+        "name": "Jonas Schmedtmann",
+        "image": "https://i.ibb.co/jTBrF7w/file-20191203-66986-im7o5.jpg",
+        "specialist": "Build Responsive Real-World Websites with HTML and CSS",
+        "doctorInfo": "Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid"
+    },
+    {
+        "id": 6,
+        "name": "Maximilian Schwarzmüller",
+        "image": "https://i.ibb.co/1zjy8kY/Male-Doctor-732x549-thumbnail.jpg",
+        "specialist": "React - The Complete Guide",
+        "doctorInfo": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!"
+    },
+    {
+        "id": 7,
+        "name": "Kirill Eremenko",
+        "image": "https://i.ibb.co/zskfBBd/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-postur.jpg",
+        "specialist": "Deep Learning A-Z™",
+        "doctorInfo":"Learn to create Deep Learning Algorithms in Python from two Machine Learning & Data Science experts. Templates included."
+    },
+    {
+        "id": 8,
+        "name": "Phin Ebiner",
+        "image": "https://i.ibb.co/sJT56hd/ravi-kant-saraogi.jpg",
+        "specialist": "Photography Masterclass: A Complete Guide to Photography",
+        "doctorInfo":"The Best Online Professional Photography Class: How to Take Amazing Photos for Beginners & Advanced Photographers"
+    },
+    {
+        "id": 9,
+        "name": "Ebiner phin",
+        "image": "https://i.ibb.co/pQtmhPv/depositphotos-12660351-stock-photo-satisfied-smiling-mature-doctor.jpg",
+        "specialist": "The Web Developer Bootcamp 2021",
+        "doctorInfo":"COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!"
+    }
+
+]

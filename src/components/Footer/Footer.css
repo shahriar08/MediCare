@@ -1,0 +1,33 @@
+.footer {
+    background-color: #0b0d17;
+    height: 230px;
+  }
+  .footer h2 {
+    color: #ff2e63;
+    font-size: 1.8em;
+    padding-top: 10px;
+  }
+  .footer p {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .footers-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footers-div {
+    color: white;
+    line-height: 0.4;
+  }
+  .footer-div h5 {
+    color: #ff2e63;
+  }
+  
+  .icon {
+    display: flex;
+  }
+  .social{
+    font-size: 1.5rem;
+    margin: 5px;
+  }
+  
