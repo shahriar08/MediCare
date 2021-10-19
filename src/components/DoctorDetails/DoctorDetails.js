@@ -23,11 +23,12 @@ const DoctorDetails = () => {
         <div className="contacts container">
             <div className="contact">
                 <div>
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '18rem'}}>
                         <Card.Img variant="top" src={doctor.image} />
                         <Card.Body>
                             <Card.Title className='text-danger fw-bold'>{doctor.name}</Card.Title>
                             <Card.Title>{doctor.specialist}</Card.Title>
+
                             <Card.Text>
                                 {doctor.doctorInfo}
                             </Card.Text>
@@ -38,7 +39,6 @@ const DoctorDetails = () => {
             </div>
             <div className="contact">
                 <h3 className=" fw-bold">Appointment To Meet With <span className='text-danger fw-bold'>{doctor.name}</span> </h3>
-                <h4>Keep in Touch</h4>
                 <Form>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Name</Form.Label>
