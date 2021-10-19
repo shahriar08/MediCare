@@ -1,66 +1,75 @@
 [
     {
         "id": 1,
-        "name": "Chad Christopher",
+        "name": "Dr.Poonam Batra",
         "image": "https://i.ibb.co/q9V4t3S/swapan-kr-saha.jpg",
-        "courseName": "Digital Marketing Masterclass",
-        "courseInfo": "Grow Your Business with Digital Marketing: Social Media Marketing, Facebook, Content, YouTube, Email Marketing, Websites"
+        "specialist": "Cardiology Specialist",
+        "degree": "MBBS,FCPS(Surgery),MS (Cardiovascular & Thoracic Surgery)",
+        "doctorInfo": "Dr.Poonam Batra graduated from Dhaka Medical College and later did his MS in Orthopedic from National Institute of Trauma &Orthopedic Rehabilitation (NITOR), Dhaka. He also completed AO advance course in trauma from Malaysia.He worked in different hospitals of the world such as Sunny Brooks and Sick Kids Hospital, Toronto, Canada; Civil Hospital & Sterling Hospital, Ahmedabad; All India Institute, Delhi and Stanly Medical College, Chennai, India.  He was trained in orthopedics and trauma surgeries including hip & knee replacements, arthroscopy, surgeries for hand and brachial plexus, congenital and post-polio deformities, free grafts, correction of deformities, nerve repair, tendon transfer and replantation. He has also worked at various district hospitals in Bangladesh."
     },
     {
         "id": 2,
-        "name": "Robert Travis",
+        "name": "Dr.Robert Travis",
         "image": "https://i.ibb.co/GJb27jH/bigstock-Young-medical-doctor-man-isola-105272324-1170x1169.jpg",
-        "specialist": "Machine Learning A-Z",
-        "doctorInfo": "Learn to create Machine Learning Algorithms in Python and R from two Data Science experts. Code templates included."
+        "specialist": "Cardiovascular Specialist",
+        "degree": "MBBS,FCPS(Surgery),MS (Cardiovascular & Thoracic Surgery)",
+        "doctorInfo": "Dr.Robert Travis graduated from Dhaka Medical College and later did his MS in Orthopedic from National Institute of Trauma &Orthopedic Rehabilitation (NITOR), Dhaka.He holds wide range of experiences for the management of deformity of the foot like TEV and has international publication on surgical management of club foot. He is proficient in performing anterior decompression and stabilization of the spinal column, spinal injury and advance spinal tuberculosis, correction of the spinal deformity and spondylolisthesis. With his long experience in Spine he becomes an international faculty in Spinal Cord injury (SCI) and at present he is the Vice President of International Spinal Cord Society (ISCoS). He is the founder chairman and executive member of Asian Spinal Cord Society Network (ASCoN)."
     },
     {
         "id": 3,
-        "name": "Dr. Angela Yu",
+        "name": "Dr.Brandene Lee",
         "image": "https://i.ibb.co/0FpnFck/360-F-260040863-f-Yx-B1-Snrzg-J9-AOkc-T0hoe7-IEFts-Pi-HAD.jpg",
-        "specialist": "The Complete iOS App Development ",
-        "doctorInfo": "From Beginner to iOS App Developer with Just One Course! Fully Updated with a Comprehensive Module Dedicated to SwiftUI!"
+        "degree": "MBBS,FCPS(Surgery),MS (Cardiovascular & Thoracic Surgery)",
+        "specialist": "Neurology Specialist",
+        "doctorInfo": "Dr.Brandene Lee graduated from Dhaka Medical College and later did his MS in Orthopedic from National Institute of Trauma &Orthopedic Rehabilitation (NITOR), Dhaka. He also completed AO advance course in trauma from Malaysia.He worked in different hospitals of the world such as Sunny Brooks and Sick Kids Hospital, Toronto, Canada; Civil Hospital & Sterling Hospital, Ahmedabad; All India Institute, Delhi and Stanly Medical College, Chennai, India.  He was trained in orthopedics and trauma surgeries including hip & knee replacements, arthroscopy, surgeries for hand and brachial plexus, congenital and post-polio deformities, free grafts, correction of deformities, nerve repair, tendon transfer and replantation. He has also worked at various district hospitals in Bangladesh."
     },
     {
         "id": 4,
-        "name": "Jonas Schmedtmann",
+        "name": "Dr.Teresa Mary",
         "image": "https://i.ibb.co/8rjLWL3/A-young-caring-doctor.jpg",
-        "specialist": "The Complete JavaScript Course 2021",
-        "doctorInfo":"The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!"
+        "specialist": "Urology Specialist",
+        "degree": "MBBS,FCPS(Surgery),MS (Cardiovascular & Thoracic Surgery)",
+        "doctorInfo":"Dr.Teresa Mary graduated from Dhaka Medical College and later did his MS in Orthopedic from National Institute of Trauma &Orthopedic Rehabilitation (NITOR), Dhaka. He also completed AO advance course in trauma from Malaysia.He worked in different hospitals of the world such as Sunny Brooks and Sick Kids Hospital, Toronto, Canada; Civil Hospital & Sterling Hospital, Ahmedabad; All India Institute, Delhi and Stanly Medical College, Chennai, India.  He was trained in orthopedics and trauma surgeries including hip & knee replacements, arthroscopy, surgeries for hand and brachial plexus, congenital and post-polio deformities, free grafts, correction of deformities, nerve repair, tendon transfer and replantation. He has also worked at various district hospitals in Bangladesh."
     },
     {
         "id": 5,
-        "name": "Jonas Schmedtmann",
+        "name": "Dr.Alexandra Tania",
         "image": "https://i.ibb.co/jTBrF7w/file-20191203-66986-im7o5.jpg",
-        "specialist": "Build Responsive Real-World Websites with HTML and CSS",
-        "doctorInfo": "Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid"
+        "specialist": "Nephrology Specialist",
+        "degree": "MBBS,FCPS(Surgery),MS (Cardiovascular & Thoracic Surgery)",
+        "doctorInfo": "Dr.Alexandra Tania graduated from Dhaka Medical College and later did his MS in Orthopedic from National Institute of Trauma &Orthopedic Rehabilitation (NITOR), Dhaka. He also completed AO advance course in trauma from Malaysia.He worked in different hospitals of the world such as Sunny Brooks and Sick Kids Hospital, Toronto, Canada; Civil Hospital & Sterling Hospital, Ahmedabad; All India Institute, Delhi and Stanly Medical College, Chennai, India.  He was trained in orthopedics and trauma surgeries including hip & knee replacements, arthroscopy, surgeries for hand and brachial plexus, congenital and post-polio deformities, free grafts, correction of deformities, nerve repair, tendon transfer and replantation. He has also worked at various district hospitals in Bangladesh."
     },
     {
         "id": 6,
-        "name": "Maximilian Schwarzmüller",
+        "name": "Dr.Alice Chi-Man",
         "image": "https://i.ibb.co/1zjy8kY/Male-Doctor-732x549-thumbnail.jpg",
-        "specialist": "React - The Complete Guide",
-        "doctorInfo": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!"
+        "specialist": "Orthopedic Surgery Specialist",
+        "degree": "MBBS,FCPS(Surgery),MS (Cardiovascular & Thoracic Surgery)",
+        "doctorInfo": "Dr.Alice Chi-Man graduated from Dhaka Medical College and later did his MS in Orthopedic from National Institute of Trauma &Orthopedic Rehabilitation (NITOR), Dhaka. He also completed AO advance course in trauma from Malaysia.He worked in different hospitals of the world such as Sunny Brooks and Sick Kids Hospital, Toronto, Canada; Civil Hospital & Sterling Hospital, Ahmedabad; All India Institute, Delhi and Stanly Medical College, Chennai, India.  He was trained in orthopedics and trauma surgeries including hip & knee replacements, arthroscopy, surgeries for hand and brachial plexus, congenital and post-polio deformities, free grafts, correction of deformities, nerve repair, tendon transfer and replantation. He has also worked at various district hospitals in Bangladesh."
     },
     {
         "id": 7,
-        "name": "Kirill Eremenko",
+        "name": "Dr.Lisa Eremenko",
         "image": "https://i.ibb.co/zskfBBd/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-postur.jpg",
-        "specialist": "Deep Learning A-Z™",
-        "doctorInfo":"Learn to create Deep Learning Algorithms in Python from two Machine Learning & Data Science experts. Templates included."
+        "specialist": "Medical Oncology Specialist",
+        "degree": "MBBS,FCPS(Surgery),MS (Cardiovascular & Thoracic Surgery)",
+        "doctorInfo":"Dr.Lisa Eremenko graduated from Dhaka Medical College and later did his MS in Orthopedic from National Institute of Trauma &Orthopedic Rehabilitation (NITOR), Dhaka. He also completed AO advance course in trauma from Malaysia.He worked in different hospitals of the world such as Sunny Brooks and Sick Kids Hospital, Toronto, Canada; Civil Hospital & Sterling Hospital, Ahmedabad; All India Institute, Delhi and Stanly Medical College, Chennai, India.  He was trained in orthopedics and trauma surgeries including hip & knee replacements, arthroscopy, surgeries for hand and brachial plexus, congenital and post-polio deformities, free grafts, correction of deformities, nerve repair, tendon transfer and replantation. He has also worked at various district hospitals in Bangladesh."
     },
     {
         "id": 8,
-        "name": "Phin Ebiner",
+        "name": "Dr.Nikhil Pradip",
         "image": "https://i.ibb.co/sJT56hd/ravi-kant-saraogi.jpg",
-        "specialist": "Photography Masterclass: A Complete Guide to Photography",
-        "doctorInfo":"The Best Online Professional Photography Class: How to Take Amazing Photos for Beginners & Advanced Photographers"
+        "specialist": "General Surgery Specialist",
+        "degree": "MBBS,FCPS(Surgery),MS (Cardiovascular & Thoracic Surgery)",
+        "doctorInfo":"Dr.Nikhil Pradip graduated from Dhaka Medical College and later did his MS in Orthopedic from National Institute of Trauma &Orthopedic Rehabilitation (NITOR), Dhaka. He also completed AO advance course in trauma from Malaysia.He worked in different hospitals of the world such as Sunny Brooks and Sick Kids Hospital, Toronto, Canada; Civil Hospital & Sterling Hospital, Ahmedabad; All India Institute, Delhi and Stanly Medical College, Chennai, India.  He was trained in orthopedics and trauma surgeries including hip & knee replacements, arthroscopy, surgeries for hand and brachial plexus, congenital and post-polio deformities, free grafts, correction of deformities, nerve repair, tendon transfer and replantation. He has also worked at various district hospitals in Bangladesh."
     },
     {
         "id": 9,
-        "name": "Ebiner phin",
+        "name": "Dr.Ebiner phin",
         "image": "https://i.ibb.co/pQtmhPv/depositphotos-12660351-stock-photo-satisfied-smiling-mature-doctor.jpg",
-        "specialist": "The Web Developer Bootcamp 2021",
-        "doctorInfo":"COMPLETELY REDONE - The only course you need to learn web development - HTML, CSS, JS, Node, and More!"
+        "specialist": "Community Medicine Specialist",
+        "degree": "MBBS,FCPS(Surgery),MS (Cardiovascular & Thoracic Surgery)",
+        "doctorInfo":"Dr.Ebiner phin graduated from Dhaka Medical College and later did his MS in Orthopedic from National Institute of Trauma &Orthopedic Rehabilitation (NITOR), Dhaka. He also completed AO advance course in trauma from Malaysia.He worked in different hospitals of the world such as Sunny Brooks and Sick Kids Hospital, Toronto, Canada; Civil Hospital & Sterling Hospital, Ahmedabad; All India Institute, Delhi and Stanly Medical College, Chennai, India.  He was trained in orthopedics and trauma surgeries including hip & knee replacements, arthroscopy, surgeries for hand and brachial plexus, congenital and post-polio deformities, free grafts, correction of deformities, nerve repair, tendon transfer and replantation. He has also worked at various district hospitals in Bangladesh."
     }
 
 ]

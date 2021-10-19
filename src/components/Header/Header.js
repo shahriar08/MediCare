@@ -11,7 +11,7 @@ const Header = () => {
         <div>
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container>
-                    <Navbar.Brand href="/home">
+                    <Navbar.Brand href="/">
                         <img
                         src={logo}
                             alt=""
@@ -36,7 +36,7 @@ const Header = () => {
                             {!user?.email && <Link to="/login" className="items" variant="danger">Sign In</Link>}
                         </Nav>
                         <Nav className="d-flex">
-                            <span className="items">{user.displayName}</span>
+                            <span className="display-name">{user.displayName}</span>
                             {user?.email && <Button onClick={logOut} className='ms-2' variant="danger">Sign Out</Button>}
                         </Nav>
                     </Navbar.Collapse>

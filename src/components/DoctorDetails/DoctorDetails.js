@@ -24,6 +24,8 @@ const DoctorDetails = () => {
                 <Card.Img variant="top" src={doctor.image} />
                 <Card.Body>
                     <Card.Title>{doctor.name}</Card.Title>
+                    <Card.Title>{doctor.specialist}</Card.Title>
+
                     <Card.Text>
                         {doctor.doctorInfo}
                     </Card.Text>

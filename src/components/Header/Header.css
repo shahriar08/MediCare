@@ -1,7 +1,7 @@
 .items {
     list-style: none;
     margin-right: 35px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: white;
     cursor: pointer;
@@ -14,4 +14,14 @@
 
   .menu-container{
       display: flex;
+  }
+  .display-name{
+    list-style: none;
+    margin-right: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FF2E63;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
   }

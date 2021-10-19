@@ -4,7 +4,7 @@ import { useHistory } from 'react-router';
 import './Doctor.css'
 
 const Doctor = (props) => {
-    const {id,name,image,specialist,doctorInfo } = props.doctor;
+    const {id,name,image,specialist,degree } = props.doctor;
     const history = useHistory();
 
     const handleDoctorClick = () => {
@@ -12,15 +12,18 @@ const Doctor = (props) => {
     };
 
     return (
-        <div className='col my-3 cardd'>
-                <Card style={{ width: '18rem' }}>
+        <div className='col text-center my-3 card-div g-5'>
+                <Card style={{ width: '25rem' }}>
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
-                        <Card.Title>{name}</Card.Title>
-                        <Card.Text>
-                            {doctorInfo}
+                        <Card.Title className='fw-bold'>{name}</Card.Title>
+                        <Card.Text className='text-danger fw-bold'>
+                            {specialist}
                         </Card.Text>
-                        <Button onClick={handleDoctorClick} variant="primary">Get Appointment</Button>
+                        <Card.Text className='fw-bold'>
+                            {degree}
+                        </Card.Text>
+                        <Button onClick={handleDoctorClick} variant="warning">Get Appointment</Button>
                     </Card.Body>
                 </Card>
         </div>
