@@ -7,20 +7,20 @@ import useAuth from '../../hooks/useAuth';
 
 const Register = () => {
 
-    const { signInUsingGoogle, signInUsingFB } = useAuth();
+    const { signInUsingGoogle, signInUsingFB,signupUsingForm } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_url = location.state?.from || '/home';
 
     const {
         register,
-        handleSubmit,
+        // handleSubmit,
         formState: { errors }
     } = useForm();
 
-    const onSubmit = (data) => {
-        alert(JSON.stringify(data));
-    };
+    // const onSubmit = (data) => {
+    //     alert(JSON.stringify(data));
+    // };
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
@@ -30,7 +30,7 @@ const Register = () => {
     }
     return (
         <div className='login-form'>
-            <form className='shipping-form' onSubmit={handleSubmit(onSubmit)}>
+            <form className='shipping-form' onSubmit={signupUsingForm}>
                 <h2>Please Register</h2>
                 <input placeholder='Your Name' {...register("name", { required: true })} />
                 {errors.name && <span className='error'>This field is required</span>}

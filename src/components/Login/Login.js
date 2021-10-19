@@ -5,20 +5,19 @@ import useAuth from '../../hooks/useAuth';
 import './Login.css'
 import { useLocation, useHistory } from 'react-router-dom';
 const Login = () => {
-    const { signInUsingGoogle, signInUsingFB } = useAuth();
+    const { signInUsingGoogle, signInUsingFB,signInUsingForm } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_url = location.state?.from || '/home';
 
     const {
         register,
-        handleSubmit,
         formState: { errors }
     } = useForm();
 
-    const onSubmit = (data) => {
-        alert(JSON.stringify(data));
-    };
+    // const onSubmit = (data) => {
+    //     alert(JSON.stringify(data));
+    // };
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
@@ -28,7 +27,7 @@ const Login = () => {
     }
     return (
         <div className='login-form'>
-            <form className='shipping-form' onSubmit={handleSubmit(onSubmit)}>
+            <form className='shipping-form' onSubmit={signInUsingForm}>
                 <h2 className='mt-5'>Please Login</h2>
                 <input placeholder='Your Email Address' {...register("email", { required: true })} />
                 {errors.email && <span className='error'>This field is required</span>}

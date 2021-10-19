@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import initializeAuthentication from '../components/Firebase/firebase.init';
-import { getAuth, onAuthStateChanged, signInWithPopup, GoogleAuthProvider, FacebookAuthProvider, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { getAuth, onAuthStateChanged, signInWithPopup, GoogleAuthProvider, FacebookAuthProvider, signInWithEmailAndPassword, signOut,
+    createUserWithEmailAndPassword } from "firebase/auth";
 
 initializeAuthentication();
 const useFirebase = () => {
@@ -21,16 +22,7 @@ const useFirebase = () => {
             })
     }
 
-    // const signInUsingEmail = () => {
-    //     signInWithEmailAndPassword(auth, email, password)
-    //         .then((result) => {
-    //             setUser(result.user);
-    //         })
-    //         .catch((error) => {
-    //             setError(error.message);
 
-    //         });
-    // }
     const signInUsingFB = () => {
         signInWithPopup(auth, fbProvider)
             .then((result) => {
@@ -40,6 +32,30 @@ const useFirebase = () => {
                 setError(error.message);
             })
     }
+    const signInUsingForm = (event) => {
+        event.preventDefault();
+        const email = event.target["email"].value;
+        const password = event.target["password"].value;
+  
+        signInWithEmailAndPassword(auth, email, password).then((userCredential) => {
+            setUser(userCredential.user);
+        }).catch(error => {
+            setError(error.message);
+        })
+    }
+    const signupUsingForm = (event) => {
+        event.preventDefault();
+        const email = event.target["email"].value;
+        const password = event.target["password"].value;
+
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                setUser(userCredential.user);
+            })
+            .catch((error) => {
+                setError(error.message);
+            });
+    };
 
     const logOut = () => {
         signOut(auth)
@@ -59,10 +75,10 @@ const useFirebase = () => {
         user,
         error,
         // email,
-        // password,
+        signupUsingForm,
         signInUsingGoogle,
         signInUsingFB,
-        // signInUsingEmail,
+        signInUsingForm,
         logOut
     }
 }
