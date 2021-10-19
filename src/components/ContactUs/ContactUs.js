@@ -21,7 +21,7 @@ const ContactUs = () => {
                             <Form.Label>Your Message</Form.Label>
                             <Form.Control as="textarea" rows={3} />
                         </Form.Group>
-                        <Button class="btn btn-danger">Submit</Button>{' '}
+                        <Button className="btn btn-danger fw-bold">Submit</Button>{' '}
                     </Form>
                 </div>
             </div>

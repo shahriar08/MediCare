@@ -17,7 +17,7 @@ const Header = () => {
                             alt=""
                             width="35"
                             height="35"
-                            className="d-inline-block align-top"
+                            className="d-inline-block align-top fw-bold"
                         />{' '}
                         MediCare
                     </Navbar.Brand>
@@ -34,10 +34,9 @@ const Header = () => {
                             <Link to="/about" className="items">About Us</Link>
                             <Link to="/contact" className="items">Contact</Link>
                             {!user?.email && <Link to="/login" className="items" variant="danger">Sign In</Link>}
-                        </Nav>
-                        <Nav className="d-flex">
-                            <span className="display-name">{user.displayName}</span>
-                            {user?.email && <Button onClick={logOut} className='ms-2' variant="danger">Sign Out</Button>}
+                            <span className="display-name fw-bold">{user.displayName}</span>
+                            {user?.email && <Button onClick={logOut} className='ms-2 fw-bold' variant="danger">Sign Out</Button>}
+                            
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
