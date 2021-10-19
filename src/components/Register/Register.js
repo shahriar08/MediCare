@@ -42,8 +42,8 @@ const Register = () => {
                 {errors.email && <span className='error'>This field is required</span>}
                 <input type="submit" />
                 <br />
-                <button className='btn btn-warning ms-1' onClick={handleGoogleLogin}>Google sign in</button>
-                <button className='btn btn-primary ms-2' onClick={signInUsingFB}>Facebook Sign In</button>
+                <button type="button" className='btn btn-warning ms-1' onClick={handleGoogleLogin}>Google sign in</button>
+                <button type="button" className='btn btn-primary ms-2' onClick={signInUsingFB}>Facebook Sign In</button>
                 <br />
                 <p>New to MediCare?<Link to='/login'>Already Registered?</Link></p>
             </form>
