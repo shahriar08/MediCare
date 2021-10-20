@@ -3,8 +3,8 @@ import { Button, Form } from 'react-bootstrap';
 import './ContactUs.css'
 const ContactUs = () => {
     return (
-        <div className="contacts container">
-            <div className="contact">
+        <div className="contacts container row d-flex justify-content-center mx-auto mt-5 mb-5">
+            <div className="contact col-lg-6 col-md-6 mb-4 mb-md-0">
                 <h3 className="text-danger fw-bold">Contact us</h3>
                 <h4>Keep in Touch</h4>
                 <div>
@@ -25,7 +25,7 @@ const ContactUs = () => {
                     </Form>
                 </div>
             </div>
-            <div className="contact">
+            <div className="contact col-lg-4 col-md-6 mb-4 mb-md-0">
                 <h3 className="address text-danger fw-bold">Address</h3>
                 <table className="table">
                     <tbody>

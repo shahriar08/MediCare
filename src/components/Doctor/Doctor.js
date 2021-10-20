@@ -12,8 +12,8 @@ const Doctor = (props) => {
     };
 
     return (
-        <div className='col text-center my-3 card-div g-5'>
-                <Card style={{ width: '25rem' }}>
+        <div className='col col-md-6 col-lg-4 col-sm-12 text-center card-div g-5'>
+                <Card>
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
                         <Card.Title className='fw-bold'>{name}</Card.Title>

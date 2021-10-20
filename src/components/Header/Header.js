@@ -34,7 +34,7 @@ const Header = () => {
                             <Link to="/about" className="items">About Us</Link>
                             <Link to="/contact" className="items">Contact</Link>
                             {!user?.email && <Link to="/login" className="items" variant="danger">Sign In</Link>}
-                            <span className="display-name fw-bold">{user.displayName}</span>
+                            <span className="display-name fw-bold">{user.displayName||user.email}</span>
                             {user?.email && <Button onClick={logOut} className='ms-2 fw-bold' variant="danger">Sign Out</Button>}
                             
                         </Nav>

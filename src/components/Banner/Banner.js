@@ -15,8 +15,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h1 className='carousel-f1'>Your Health</h1>
-                        <h1 className='carousel-f2'>Our First Priority</h1>
+                        <h1 className='carousel-f1 mx-auto w-50'>Your Health</h1>
+                        <h1 className='carousel-f2 mx-auto w-50'>Our First Priority</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -27,8 +27,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h1 className='carousel-f1'>Your Health</h1>
-                        <h1 className='carousel-f2'>Our First Priority</h1>
+                        <h1 className='carousel-f1 mx-auto w-50'>Your Health</h1>
+                        <h1 className='carousel-f2 mx-auto w-50'>Our First Priority</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -38,9 +38,9 @@ const Banner = () => {
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption>
-                        <h1 className='carousel-f1'>Your Health</h1>
-                        <h1 className='carousel-f2'>Our First Priority</h1>
+                    <Carousel.Caption className=''>
+                        <h1 className='carousel-f1 mx-auto w-50'>Your Health</h1>
+                        <h1 className='carousel-f2 mx-auto w-50'>Our First Priority</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

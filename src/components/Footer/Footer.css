@@ -2,7 +2,7 @@
     background-color: #0b0d17;
     height: 230px;
   }
-  .footer h2 {
+  .footer h1 {
     color: #ff2e63;
     font-size: 1.8em;
     padding-top: 10px;
@@ -30,4 +30,6 @@
     font-size: 1.5rem;
     margin: 5px;
   }
-  
+  .list-unstyled li a{
+    text-decoration: none;
+  }

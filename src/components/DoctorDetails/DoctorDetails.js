@@ -20,10 +20,10 @@ const DoctorDetails = () => {
     };
     return (
 
-        <div className="contacts container">
-            <div className="contact">
+        <div className="contacts container d-flex justify-content-center mt-5 row mx-auto">
+            <div className="contact col-lg-4 col-md-4">
                 <div>
-                    <Card style={{ width: '18rem'}}>
+                    <Card >
                         <Card.Img variant="top" src={doctor.image} />
                         <Card.Body>
                             <Card.Title className='text-danger fw-bold'>{doctor.name}</Card.Title>
@@ -32,12 +32,11 @@ const DoctorDetails = () => {
                             <Card.Text>
                                 {doctor.doctorInfo}
                             </Card.Text>
-                            <Button className='btn btn-danger' onClick={handleClick} variant="primary">Get Appointment</Button>
                         </Card.Body>
                     </Card>
                 </div>
             </div>
-            <div className="contact">
+            <div className="contact col-lg-4 col-md-6">
                 <h3 className=" fw-bold">Appointment To Meet With <span className='text-danger fw-bold'>{doctor.name}</span> </h3>
                 <Form>
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

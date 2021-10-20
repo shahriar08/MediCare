@@ -4,8 +4,8 @@ import './GetAppointment.css'
 import image from './appointment.jpg'
 const GetAppointment = () => {
     return (
-        <div className="contacts container">
-            <div className="contact">
+        <div className="contacts container row d-flex justify-content-center mx-auto mt-5">
+            <div className="contact col-lg-4 col-md-8">
                 <h3 className="text-danger fw-bold">Get Appointment From Your Advisor</h3>
                 <h4>Keep in Touch</h4>
                 <div>
@@ -26,7 +26,7 @@ const GetAppointment = () => {
                     </Form>
                 </div>
             </div>
-            <div className="contact image">
+            <div className="contact image col-lg-6 col-md-6">
                 <img src={image} alt="" />
                 
             </div>
