@@ -6,14 +6,14 @@ import logo from './logo.png'
 import './Header.css'
 
 const Header = () => {
-    const { user,logOut } = useAuth();
+    const { user, logOut } = useAuth();
     return (
         <div>
             <Navbar bg="dark" variant="dark" expand="lg">
                 <Container>
                     <Navbar.Brand href="/">
                         <img
-                        src={logo}
+                            src={logo}
                             alt=""
                             width="35"
                             height="35"
@@ -35,9 +35,9 @@ const Header = () => {
                             <Link to="/about" className="items">About Us</Link>
                             <Link to="/contact" className="items">Contact</Link>
                             {!user?.email && <Link to="/login" className="items" variant="danger">Sign In</Link>}
-                            <span className="display-name fw-bold">{user.displayName||user.email}</span>
+                            <span className="display-name fw-bold">{user.displayName || user.email}</span>
                             {user?.email && <Button onClick={logOut} className='ms-2 fw-bold' variant="danger">Sign Out</Button>}
-                            
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

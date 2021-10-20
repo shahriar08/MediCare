@@ -6,13 +6,12 @@ import './Login.css'
 import { isEmpty } from "lodash";
 import { useLocation, useHistory } from 'react-router-dom';
 const Login = () => {
-    const { signInUsingGoogle, signInUsingFB, signInUsingForm, user,error } = useAuth();
+    const { signInUsingGoogle, signInUsingFB, signInUsingForm, user, error } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_url = location.state?.from || '/home';
     const {
         register,
-        formState: { errors }
     } = useForm();
     const handleGoogleLogin = () => {
         signInUsingGoogle()
@@ -41,8 +40,8 @@ const Login = () => {
                 <h2 className='mt-5'>Please Login</h2>
                 <input placeholder='Your Email Address' {...register("email", { required: true })} />
                 <input placeholder='Password' {...register("password", { required: true })} />
-                {error && <p style={{color: "red"}}>{error}</p>}
-                <input className='btn btn-danger' type="submit" value="Submit"/>
+                {error && <p style={{ color: "red" }}>{error}</p>}
+                <input className='btn btn-danger' type="submit" value="Submit" />
                 <br />
                 <button type="button" className='btn btn-warning ms-1' onClick={handleGoogleLogin}>Google sign in</button>
                 <button type="button" className='btn btn-primary ms-2' onClick={handleSignInUsingFB}>Facebook Sign In</button>

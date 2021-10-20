@@ -28,7 +28,7 @@ const GetAppointment = () => {
             </div>
             <div className="contact image col-lg-6 col-md-6">
                 <img src={image} alt="" />
-                
+
             </div>
         </div>
     );

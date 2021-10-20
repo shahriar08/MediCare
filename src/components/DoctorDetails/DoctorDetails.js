@@ -15,9 +15,6 @@ const DoctorDetails = () => {
             });
     }, []);
 
-    const handleClick = () => {
-        history.push(`/doctors`);
-    };
     return (
 
         <div className="contacts container d-flex justify-content-center mt-5 row mx-auto">

@@ -7,10 +7,8 @@ const Footer = () => {
                 <div className="container p-4">
                     <center>
                         <h1>MediCare</h1>
-                        <h5>Your Health,Our First Priority</h5>
+                        <h5 className="mb-5">Your Health,Our First Priority</h5>
                     </center>
-                    <section className="">
-
                         <div className="row">
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0 footer-div">
@@ -71,20 +69,20 @@ const Footer = () => {
                             </div>
 
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0 footer-div icon">
-                                <h5>Find Us</h5>
-                                <p><i className="fab fa-facebook social"></i></p>
-                                <p><i className="fab fa-instagram social"></i></p>
-                                <p><i className="fab fa-twitter social"></i></p>
+                                <div>
+                                    <h5>Find Us</h5>
+                                    <p><i className="fab fa-facebook social"></i></p>
+                                    <p><i className="fab fa-instagram social"></i></p>
+                                    <p><i className="fab fa-twitter social"></i></p>
+                                </div>
                             </div>
 
                         </div>
 
-                    </section>
-
                 </div>
 
                 <div className="text-center p-3">
-                    © 2021 Copyright:
+                    © 2021 Copyright: Al-Shahriar
                     <p className="text-white">MediCare.com</p>
                 </div>
 

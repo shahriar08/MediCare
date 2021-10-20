@@ -30,7 +30,7 @@ const ContactUs = () => {
                 <table className="table">
                     <tbody>
                         <tr>
-                            <td>43 castle road 517 district, kiyev port south Canada.</td>
+                            <td>43 castle road 517 district, kiyve port south Canada.</td>
                         </tr>
                         <tr>
                             <td>email@yourmail.com</td>

@@ -39,7 +39,7 @@ const FAQ = () => {
                                 <Accordion.Item eventKey="3">
                                     <Accordion.Header>Can i get all type of health diseases doctor</Accordion.Header>
                                     <Accordion.Body>
-                                        Yes.You can show all type of doctor from our hospital. You can visit our website for more details. 
+                                        Yes.You can show all type of doctor from our hospital. You can visit our website for more details.
                                     </Accordion.Body>
                                 </Accordion.Item>
                             </Accordion>
