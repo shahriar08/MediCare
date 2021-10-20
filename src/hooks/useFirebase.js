@@ -1,14 +1,16 @@
 import { useEffect, useState } from "react";
 import initializeAuthentication from '../components/Firebase/firebase.init';
-import { getAuth, onAuthStateChanged, signInWithPopup, GoogleAuthProvider, FacebookAuthProvider, signInWithEmailAndPassword, signOut,
-    createUserWithEmailAndPassword } from "firebase/auth";
-import { useHistory } from "react-router-dom";
+import {
+    getAuth, onAuthStateChanged, signInWithPopup, GoogleAuthProvider, FacebookAuthProvider, signInWithEmailAndPassword, signOut,
+    createUserWithEmailAndPassword
+} from "firebase/auth";
+// import { useHistory } from "react-router-dom";
 
 initializeAuthentication();
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [error, setError] = useState('');
-    const history = useHistory();
+    // const history = useHistory();
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
     const fbProvider = new FacebookAuthProvider();
@@ -37,27 +39,36 @@ const useFirebase = () => {
         event.preventDefault();
         const email = event.target["email"].value;
         const password = event.target["password"].value;
-  
-        signInWithEmailAndPassword(auth, email, password).then((userCredential) => {
-            setUser(userCredential.user);
+
+        signInWithEmailAndPassword(auth, email, password).then((result) => {
+            setUser(result.user);
         }).catch(error => {
-            setError(error.message);
+            const errorCode = error?.code;
+            const errorMessage =
+                errorCode === "auth/user-not-found"
+                    ? "Invalid Email or Password"
+                    : error.message;
+            setError(errorMessage);
         })
     }
     const signupUsingForm = (event) => {
         event.preventDefault();
         const email = event.target["email"].value;
         const password = event.target["password"].value;
-        const name = event.target["name"].value;
-        const phone = event.target["phone"].value;
-
-        createUserWithEmailAndPassword(auth, email, password,name,phone)
-            .then((userCredential) => {
-                setUser(userCredential.user);
+        // const name = event.target["name"].value;
+        // const phone = event.target["phone"].value;
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((result) => {
+                setUser(result.user);
             })
             .catch((error) => {
-                setError(error.message);
-            });
+                const errorCode = error?.code;
+                const errorMessage =
+                    errorCode === "auth/user-not-found"
+                        ? "Invalid Email or Password"
+                        : error.message;
+                setError(errorMessage);
+            })
     };
 
     const logOut = () => {
@@ -77,7 +88,6 @@ const useFirebase = () => {
     return {
         user,
         error,
-        // email,
         signupUsingForm,
         signInUsingGoogle,
         signInUsingFB,

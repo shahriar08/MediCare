@@ -31,6 +31,7 @@ const Header = () => {
                             <Link to="/home" className="items">Home</Link>
                             <Link to="/doctors" className="items">Doctors</Link>
                             <Link to="/appointment" className="items">Get Appointment</Link>
+                            <Link to="/online-doctor" className="items">Online Doctor</Link>
                             <Link to="/about" className="items">About Us</Link>
                             <Link to="/contact" className="items">Contact</Link>
                             {!user?.email && <Link to="/login" className="items" variant="danger">Sign In</Link>}

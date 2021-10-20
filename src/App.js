@@ -1,5 +1,4 @@
 import './App.css';
-import Header from './components/Header/Header';
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +16,7 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import OnlineDoctor from './components/OnlineDoctor/OnlineDoctor';
 
 function App() {
   return (
@@ -53,6 +53,11 @@ function App() {
             <PrivateRoute path="/appointment">
               <Layout>
                 <GetAppointment></GetAppointment>
+              </Layout>
+            </PrivateRoute>
+            <PrivateRoute path="/online-doctor">
+              <Layout>
+                <OnlineDoctor></OnlineDoctor>
               </Layout>
             </PrivateRoute>
             <Route path="/about">
